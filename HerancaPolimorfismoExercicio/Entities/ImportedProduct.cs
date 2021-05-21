@@ -22,7 +22,7 @@ namespace HerancaPolimorfismoExercicio.Entities
         public override string PriceTag()
         {
             double valor = Price + CustomsFee;
-            return Name + " $ " + valor.ToString("F2", CultureInfo.InvariantCulture) + " (Taxa Alfandegaria: $ " + CustomsFee +")";
+            return Name + " $ " + valor.ToString("F2", CultureInfo.InvariantCulture) + " (Taxa Alfandegaria: $ " + CustomsFee.ToString("F2", CultureInfo.InvariantCulture) +")";
         }
     }
 }

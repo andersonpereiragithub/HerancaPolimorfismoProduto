@@ -46,7 +46,7 @@ namespace HerancaPolimorfismoExercicio
                     lista.Add(produto);
                 }
             }
-            Console.WriteLine("\nPRICE TAGS: ");
+            Console.WriteLine("\nEtiquetas de Preços: ");
             foreach (Product item in lista)
             {
                     Console.WriteLine(item.PriceTag());
